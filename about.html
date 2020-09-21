@@ -3,22 +3,46 @@
     <head>
         <meta charset="utf-8">
         <title>Gabe's About Page</title>
-         <style>
-        body {background-color: rgb(137,207,240);}
+          <style>
+            body {background-color: rgb(137,207,240);}
+            h1 {text-align: center;}
+            p {text-align: center;}
+            img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+	table.center {
+ 		 margin-left:auto; 
+  		margin-right:auto;
+		}
+        
         </style>
     </head>
     <body>
-        <img src="myBanner.jpg" alt="Gabriel's Banner">
+        <img src="myBanner.jpg" alt="Gabriel's Banner" class:"center">
         <br>
-        <a href="index.html">
-            <img src="home.png" alt="Home Button">
-        </a>
-        <a href="javascripts.html">
-            <img src="java.png" a;t="Javascripts Button">
-        </a>   
-        <a href="about.html">
-            <img src="about.png" alt="About Me Button">
-        </a>
+        <table class="center">
+	        <thead>
+                <tr>
+                    <th>
+                        <a href="index.html">
+                            <img src="home.png" alt="Home Button">
+                        </a>
+                    </th>
+                    <th>
+                        <a href="javascripts.html">
+                            <img src="java.png" a;t="Javascripts Button">
+                        </a>
+                    </th>
+                    <th>
+                        <a href="about.html">
+                            <img src="about.png" alt="About Me Button">
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+        </table>
         <br>
         <h1>About Me</h1>
         <img src="gabe_1.jpg" width="200" alt="Picture of me 1">
